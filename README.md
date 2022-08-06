@@ -1,2 +1,2 @@
 # admin_page
-Página para administração do TCC.
+Dashboard to administration of TCC.
