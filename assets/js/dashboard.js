@@ -1,4 +1,4 @@
-/*=============== LINK ACTIVE ===============*/
+/*=============== ATIVAR LINK ===============*/
 const linkColor = document.querySelectorAll('.nav__link')
 
 function colorLink(){
@@ -8,16 +8,16 @@ function colorLink(){
 
 linkColor.forEach(l => l.addEventListener('click', colorLink))
 
-/*=============== SHOW HIDDEN MENU ===============*/
+/*=============== ESCONDER MENU ===============*/
 const showMenu = (toggleId, navbarId) =>{
     const toggle = document.getElementById(toggleId),
     navbar = document.getElementById(navbarId)
 
     if(toggle && navbar){
         toggle.addEventListener('click', ()=>{
-            /* Show menu */
+            /* EXibe o menu */
             navbar.classList.toggle('show-menu')
-            /* Rotate toggle icon */
+            /* Ligar icone */
             toggle.classList.toggle('rotate-icon')
         })
     }
